@@ -1,5 +1,5 @@
 var regexes = module.exports = {
-    lineBreak: /\n/,
+    lineBreak: /\r?\n/,
     trailingReturn: /\r$/,
     leadingDot: /^\./,
     trailingDot: /\.$/,
