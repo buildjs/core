@@ -1,28 +1,32 @@
 var regexes = module.exports = {
     lineBreak: /\n/,
     trailingReturn: /\r$/,
-    leadingDot = /^\./,
-    trailingDot = /\.$/,
-    leadingSlash = /^\//,
-    trailingSlash = /\/$/,
-    multiTarget = /^(.*?)\[(.*)\]$/,
+    leadingDot: /^\./,
+    trailingDot: /\.$/,
+    leadingSlash: /^\//,
+    trailingSlash: /\/$/,
+
+    // a regex that can be used to remove trailing whitespace from a line
+    trailingWhitespace: /\s+\r?$/,
+
+    multiTarget: /^(.*?)\[(.*)\]$/,
 
     // alias definitions: blah!optional-trailing-section
-    alias = /^([\w\-]+)\!(.*)$/,
+    alias: /^([\w\-]+)\!(.*)$/,
 
     // js single line include //=
-    includeDoubleSlash = /^(\s*)\/\/\=(\w*)\s*(.*)$/,
+    includeDoubleSlash: /^(\s*)\/\/\=(\w*)\s*(.*)$/,
 
     // css, js multiline include /*=  */
-    includeSlashStar = /^(\s*)\/\*\=(\w*)\s*(.*?)\s*\*\/$/,
+    includeSlashStar: /^(\s*)\/\*\=(\w*)\s*(.*?)\s*\*\/$/,
 
     // coffeescript single line include #=
-    includeHash = /^(\s*)\#\=(\w*)\s*(.*)$/,
+    includeHash: /^(\s*)\#\=(\w*)\s*(.*)$/,
 
     // leading and trailing quote capture
-    quotesLeadAndTrail = /(^[\"\']|[\"\']$)/g,
+    quotesLeadAndTrail: /(^[\"\']|[\"\']$)/g,
 
-    fallbackDelim = /\s+\:\s+/
+    fallbackDelim: /\s+\:\s+/
 };
 
 // specify the include regexes
