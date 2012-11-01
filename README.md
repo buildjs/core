@@ -7,3 +7,5 @@ This library is a set of core settings and utilities that are shared across the 
 * `buildjs.core/formatters` - General formatting helpers (strip trailing whitespace, etc)
 
 * `buildjs.core/aliases` - Helper tools for dealing with BuildJS aliases.
+
+* `buildjs.core/platform` - Platform aware settings and helpers.
