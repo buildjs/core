@@ -1,0 +1,29 @@
+{
+  "name": "buildjs.core",
+  "description": "Core Shared Functionality for the BuildJS Tool Suite",
+  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "tags": [
+    "require"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.6.x < 0.9.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buildjs/core.git"
+  },
+  "bugs": {
+    "url": "http://github.com/buildjs/core/issues"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "contributors": [],
+  "optionalDependencies": {}
+}
