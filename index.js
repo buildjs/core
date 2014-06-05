@@ -3,8 +3,11 @@
 
   This library is a set of core settings and utilities that are shared across
   the BuildJS tools.  The library is made up of a number of modules that can
-  be accessed by using `require('buildjs.core/modulename')`.  The list of
-  modules and their purpose is outlined below:
+  be accessed by using `require('buildjs.core/modulename')`.
+
+  ## Components
+
+  The list of modules and their purpose is outlined below:
 
   - `buildjs.core/regexes`
 
@@ -23,4 +26,7 @@
   - `buildjs.core/platform`
 
     Platform aware settings and helpers.
+
+  ## Reference
+
 **/

@@ -2,8 +2,16 @@
 
 This library is a set of core settings and utilities that are shared across
 the BuildJS tools.  The library is made up of a number of modules that can
-be accessed by using `require('buildjs.core/modulename')`.  The list of
-modules and their purpose is outlined below:
+be accessed by using `require('buildjs.core/modulename')`.
+
+
+[![NPM](https://nodei.co/npm/buildjs.core.png)](https://nodei.co/npm/buildjs.core/)
+
+[![stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/buildjs/core.svg?branch=master)](https://travis-ci.org/buildjs/core) 
+
+## Components
+
+The list of modules and their purpose is outlined below:
 
 - `buildjs.core/regexes`
 
@@ -23,23 +31,22 @@ modules and their purpose is outlined below:
 
   Platform aware settings and helpers.
 
-
-[![NPM](https://nodei.co/npm/buildjs.core.png)](https://nodei.co/npm/buildjs.core/)
-
-[![stable](https://img.shields.io/badge/stability-stable-green.svg)](https://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/buildjs/core.svg?branch=master)](https://travis-ci.org/buildjs/core) 
+## Reference
 
 ### expand(input, aliases)
 
 The expand function is used to locate aliases within the given input string
 and return their expanded equivalents.
 
-## formatters
+### formatters
 
 Formatting helper functions.
 
-### stripTrailingWhitespace
+#### stripTrailingWhitespace(line)
 
-### normlizeExt
+#### normalizeExt(ext)
+
+### regexes
 
 ## License(s)
 

@@ -1,6 +1,11 @@
 /* jshint node: true */
 'use strict';
 
+/**
+  ### regexes
+
+**/
+
 var regexes = module.exports = {
   lineBreak: /\r?\n/,
   trailingReturn: /\r$/,

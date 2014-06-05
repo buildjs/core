@@ -2,7 +2,7 @@
 'use strict';
 
 /**
-  ## buildjs.core/platform
+  ### platform
 
   The platform module provides platform aware settings and tools for working
   with source files.
