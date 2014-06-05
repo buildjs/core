@@ -18,7 +18,7 @@ var regexes = module.exports = {
   alias: /^([\w\-]+)\!(.*)$/,
 
   // js single line include //=
-  includeDoubleSlash: /^(\s*)\/\/\=(\w*)\s*(.*)$/,
+  includeDoubleSlash: /^(\s*)\/\/\=(\w*)\s*([^=]*)$/,
 
   // css, js multiline include /*=  */
   includeSlashStar: /^(\s*)\/\*\=(\w*)\s*(.*?)\s*\*\/$/,
